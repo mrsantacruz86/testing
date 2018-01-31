@@ -2,16 +2,35 @@
 
 .container{
     border: 5px solid green;
-    width: 500px;
+    width: 260px;
     height: 500px;
+    position: relative;
+    /* align-content: center; */
 }
 
 .square{
-    border: 5px solid blue;
+    display: inline-block;
+    border: 2px solid blue;
     background: transparent;
     width: 100px;
     height: 100px;
-    /* position: absolute; */
-    font-size: 80px;
+    position: relative;
+    font-size: 90px;
+    text-align: center;
     color: brown;
+    margin: 10px;
+
+}
+#square1{
+    height: 130px;
+}
+#square2{
+    
+    
+}
+#square3{
+    
+}
+#square4{
+    bottom: 0;
 }
