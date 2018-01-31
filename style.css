@@ -1,0 +1,17 @@
+/*Stylesheet for the testig page*/
+
+.container{
+    border: 5px solid green;
+    width: 500px;
+    height: 500px;
+}
+
+.square{
+    border: 5px solid blue;
+    background: transparent;
+    width: 100px;
+    height: 100px;
+    /* position: absolute; */
+    font-size: 80px;
+    color: brown;
+}
